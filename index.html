@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Desinic - Get Best UI Design</title>
+  <title>Futras - Fitness & Nutrition</title>
 
   <!-- 
     - favicon
@@ -23,7 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap"
     rel="stylesheet">
 </head>
 
@@ -36,61 +36,49 @@
   <header class="header" data-header>
     <div class="container">
 
-      <div class="overlay" data-overlay></div>
-
-      <a href="#">
-        <h1 class="logo">Desinic</h1>
+      <a href="#" class="logo">
+        Reco<span class="span">nectare</span>
       </a>
 
       <nav class="navbar" data-navbar>
 
-        <div class="navbar-top">
-          <a href="#" class="logo">Desinic</a>
-
-          <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
-            <ion-icon name="close-outline"></ion-icon>
-          </button>
-        </div>
+        <button class="nav-toggle-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
 
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <a href="#home" class="navbar-link" data-navbar-link>Home</a>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#about" class="navbar-link" data-navbar-link>About</a>
+            <a href="#about" class="navbar-link" data-nav-link>About Us</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#services" class="navbar-link" data-navbar-link>Services</a>
+            <a href="#course" class="navbar-link" data-nav-link>All Course</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#features" class="navbar-link" data-navbar-link>Features</a>
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
           </li>
 
-          <!-- <li class="navbar-item">
-            <a href="#blog" class="navbar-link" data-navbar-link>Blog</a>
-          </li> -->
-
           <li class="navbar-item">
-            <a href="#" class="navbar-link" data-navbar-link>Contact Us</a>
+            <a href="#" class="navbar-link" data-nav-link>Contact</a>
           </li>
 
         </ul>
 
       </nav>
 
-      <a href="#" class="btn">
-        <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+      <a href="#" class="btn btn-primary">Sign Up</a>
 
-        <span>Get A Quote</span>
-      </a>
-
-      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
-        <ion-icon name="menu-outline"></ion-icon>
+      <button class="nav-toggle-btn" aria-label="open manu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
       </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
 
     </div>
   </header>
@@ -106,83 +94,48 @@
         - #HERO
       -->
 
-      <section class="hero" id="home">
+      <section class="section hero" aria-label="hero" id="home" data-section
+        style="background-image: url('./assets/images/hero-banner4.jpg')">
         <div class="container">
 
-          <div class="hero-content">
+          <p class="hero-subtitle">Ceva subtitlu fain pt ochiul omului</p>
 
-            <p class="hero-subtitle">We Are Product Designer From UK</p>
+          <h1 class="h1 hero-title">Reconnective Healing</h1>
 
-            <h2 class="h2 hero-title">We Design Interfaces That Users Love</h2>
+          <p class="hero-text">
+            Habar n-am ce sa scriu aici
+          </p>
 
-            <p class="hero-text">
-              Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac
-              at purus.
-            </p>
+          <a href="#" class="btn btn-secondary">HEALING!!!!!!!</a>
 
-            <button class="btn">Learn More</button>
+          <div class="social-wrapper">
 
-          </div>
+            <p class="social-title">Connect with us:</p>
 
-          <figure class="hero-banner">
-            <img src="./assets/images/hero-banner.png" width="694" height="529" loading="lazy" alt="hero-banner"
-              class="w-100 banner-animation">
-          </figure>
+            <ul class="social-list" >
 
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #ABOUT
-      -->
-
-      <section class="section about" id="about">
-        <div class="container">
-
-          <figure class="about-banner">
-            <img src="./assets/images/about-banner.png" width="700" height="532" loading="lazy" alt="about banner"
-              class="w-100 banner-animation">
-          </figure>
-
-          <div class="about-content">
-
-            <h2 class="h2 section-title underline">Why Our Agency</h2>
-
-            <p class="about-text">
-              In dictum aliquam turpis lacinia iaculis. Fusce vel malesuada magna. Nulla vel maximus risus. Donec
-              volutpat metus
-              lacinia risus accumsan, ac bibendum libero efficitur. Pellentesque nec nisi sit amet magna tempus
-              hendrerit ut a odio.
-            </p>
-
-            <p class="about-text">
-              Praesent rhoncus commodo tortor, id pulvinar nisl blandit at. Nulla facilisi. Quisque turpis ante,
-              vehicula condimentum
-              arcu.
-            </p>
-
-            <ul class="stats-list">
-
-              <li class="stats-card">
-                <p class="h3 stats-title">9875</p>
-
-                <p class="stats-text">Satisfied Clients</p>
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
               </li>
 
-              <li class="stats-card">
-                <p class="h3 stats-title">7894</p>
-
-                <p class="stats-text">Project Lunched</p>
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-skype"></ion-icon>
+                </a>
               </li>
 
-              <li class="stats-card">
-                <p class="h3 stats-title">65</p>
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
 
-                <p class="stats-text">Years Completed</p>
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
               </li>
 
             </ul>
@@ -200,31 +153,29 @@
         - #SERVICE
       -->
 
-      <section class="section service" id="services">
+      <section class="section service" aria-label="service" data-section>
         <div class="container">
 
-          <h2 class="h2 section-title underline">Our Speciallization</h2>
-
-          <ul class="service-list">
+          <ul class="grid-list">
 
             <li>
               <div class="service-card">
 
                 <div class="card-icon">
-                  <ion-icon name="telescope-outline"></ion-icon>
+                  <img src="./assets/images/service-1.svg" width="60" height="60" loading="lazy" alt="Women’s Course">
                 </div>
 
-                <h3 class="h3 title">Strategy & Research</h3>
+                <h3 class="h3">
+                  <a href="#" class="card-title">Reconectare vere</a>
+                </h3>
 
-                <p class="text">
-                  Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus
-                  suscipit, enim ex
-                  venenatis ipsum, et porttitor.
+                <p class="card-text">
+                  Lorem Ipsum is simply dummy themes industryes psum has been them industry the loep into type setting.
                 </p>
 
-                <button class="card-btn" aria-label="Show More">
-                  <ion-icon name="chevron-forward-outline"></ion-icon>
-                </button>
+                <a href="#" class="btn btn-secondary">
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </a>
 
               </div>
             </li>
@@ -233,20 +184,20 @@
               <div class="service-card">
 
                 <div class="card-icon">
-                  <ion-icon name="desktop-outline"></ion-icon>
+                  <img src="./assets/images/service-2.svg" width="60" height="60" loading="lazy" alt="Basic Course">
                 </div>
 
-                <h3 class="h3 title">Web Development</h3>
+                <h3 class="h3">
+                  <a href="#" class="card-title">Putin mai multa reconectare</a>
+                </h3>
 
-                <p class="text">
-                  Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus
-                  suscipit, enim ex
-                  venenatis ipsum, et porttitor.
+                <p class="card-text">
+                  Lorem Ipsum is simply dummy themes industryes psum has been them industry the loep into type setting.
                 </p>
 
-                <button class="card-btn" aria-label="Show More">
-                  <ion-icon name="chevron-forward-outline"></ion-icon>
-                </button>
+                <a href="#" class="btn btn-secondary">
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </a>
 
               </div>
             </li>
@@ -255,20 +206,20 @@
               <div class="service-card">
 
                 <div class="card-icon">
-                  <ion-icon name="globe-outline"></ion-icon>
+                  <img src="./assets/images/service-3.svg" width="60" height="60" loading="lazy" alt="Men’s Course">
                 </div>
 
-                <h3 class="h3 title">Web Solution</h3>
+                <h3 class="h3">
+                  <a href="#" class="card-title">RECONECTARE ABSOLUTA</a>
+                </h3>
 
-                <p class="text">
-                  Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus
-                  suscipit, enim ex
-                  venenatis ipsum, et porttitor.
+                <p class="card-text">
+                  Lorem Ipsum is simply dummy themes industryes psum has been them industry the loep into type setting.
                 </p>
 
-                <button class="card-btn" aria-label="Show More">
-                  <ion-icon name="chevron-forward-outline"></ion-icon>
-                </button>
+                <a href="#" class="btn btn-secondary">
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </a>
 
               </div>
             </li>
@@ -283,92 +234,291 @@
 
 
       <!-- 
-        - #FEATURES
+        - #ABOUT
       -->
 
-      <section class="section features" id="features">
+      <section class="section about" aria-label="about" id="about" data-section>
         <div class="container">
 
-          <h2 class="h2 section-title underline">Our Features</h2>
+          <div class="about-banner img-holder" style="--width: 470; --height: 580;">
+            <img src="./assets/images/about-banner.jpg" width="470" height="580" loading="lazy" alt="about banner"
+              class="img-cover">
 
-          <ul class="features-list">
+            <a href="#" class="btn btn-secondary">Cunoste-ti instructorul</a>
+          </div>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">25+ Years Of Experience</p>
+
+            <h2 class="h2 section-title">Practician de Reconnective Healing</h2>
+
+            <p class="section-text">
+              Lorem Ipsum is simply dummy text the printing and typesetting standard dummy text ever since the 150 when
+              an unknown
+              printe specimen book has survived centuries.
+            </p>
+
+            <h3 class="about-h3">Subtitlu smecher </h3>
+
+            <p class="section-text">
+              Lorem Ipsum is simply dummy text the printing and typesetting standard dummy text ever since the 150 when
+              an unknown
+              printe specimen book has survived centuries.
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #COURSE
+      -->
+
+      <section class="section course" aria-label="course" id="course" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <h2 class="h2 section-title">Servicii</h2>
+          </div>
+
+          <ul class="grid-list">
 
             <li>
-              <div class="features-card">
+              <div class="course-card">
 
-                <div class="icon">
-                  <ion-icon name="bulb-outline"></ion-icon>
-                </div>
+                <figure class="card-banner img-holder" style="--width: 350; --height: 300;">
+                  <img src="./assets/images/courses-1.jpg" width="350" height="300" loading="lazy"
+                    alt="Children Nutrition and Cooking" class="img-cover">
+                </figure>
 
-                <div class="content">
-                  <h3 class="h3 title">Idea & Analysis</h3>
+                <div class="card-content">
 
-                  <p class="text">
-                    Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.
+                  <data class="card-price" value="98">$98</data>
+
+                  <p class="card-author">
+                    <a href="#" class="card-link">
+                      By: <span class="span">Ryan Patterson</span>
+                    </a>
                   </p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">RECONNECTIVE HEALING ( VINDECAREA RECONECTIVA)</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <time datetime="PT8H20M">08 hr 20 mins</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <p class="card-meta-text">28 Lectures</p>
+                    </li>
+
+                  </ul>
+
                 </div>
 
               </div>
             </li>
 
             <li>
-              <div class="features-card">
+              <div class="course-card">
 
-                <div class="icon">
-                  <ion-icon name="color-palette-outline"></ion-icon>
-                </div>
+                <figure class="card-banner img-holder" style="--width: 350; --height: 300;">
+                  <img src="./assets/images/courses-2.jpg" width="350" height="300" loading="lazy"
+                    alt="Introduction to Food and Health." class="img-cover">
+                </figure>
 
-                <div class="content">
-                  <h3 class="h3 title">Designing</h3>
+                <div class="card-content">
 
-                  <p class="text">
-                    Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.
+                  <data class="card-price" value="72">$72</data>
+
+                  <p class="card-author">
+                    <a href="#" class="card-link">
+                      By: <span class="span">Arlene Daniels</span>
+                    </a>
                   </p>
-                </div>
 
-              </div>
-            </li>
+                  <h3 class="h3">
+                    <a href="#" class="card-title">THE PERSONAL RECONNECTION (RECONECTAREA PERSONALA)</a>
+                  </h3>
 
-          </ul>
+                  <ul class="card-meta-list">
 
-          <figure class="features-banner">
-            <img src="./assets/images/feautres-banner.png" width="369" height="318" loading="lazy" alt="Features Banner"
-              class="w-100 banner-animation">
-          </figure>
+                    <li class="card-meta-item">
+                      <time datetime="PT9H25M">09 hr 25 mins</time>
+                    </li>
 
-          <ul class="features-list">
+                    <li class="card-meta-item">
+                      <p class="card-meta-text">16 Lectures</p>
+                    </li>
 
-            <li>
-              <div class="features-card">
+                  </ul>
 
-                <div class="icon">
-                  <ion-icon name="code-slash-outline"></ion-icon>
-                </div>
-
-                <div class="content">
-                  <h3 class="h3 title">Development</h3>
-
-                  <p class="text">
-                    Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.
-                  </p>
                 </div>
 
               </div>
             </li>
 
             <li>
-              <div class="features-card">
+              <div class="course-card">
 
-                <div class="icon">
-                  <ion-icon name="rocket-outline"></ion-icon>
+                <figure class="card-banner img-holder" style="--width: 350; --height: 300;">
+                  <img src="./assets/images/courses-3.jpg" width="350" height="300" loading="lazy"
+                    alt="Nutrition and Lifestyle in Pregnancy" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <data class="card-price" value="68">$68</data>
+
+                  <p class="card-author">
+                    <a href="#" class="card-link">
+                      By: <span class="span">Selina Benton</span>
+                    </a>
+                  </p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">SOUL REALIGNMENT (REALINIEREA SUFLETULUI)</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <time datetime="PT3H38M">03 hr 38 mins</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <p class="card-meta-text">18 Lectures</p>
+                    </li>
+
+                  </ul>
+
                 </div>
 
-                <div class="content">
-                  <h3 class="h3 title">Testing & Lunching</h3>
+              </div>
+            </li>
 
-                  <p class="text">
-                    Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 300;">
+                  <img src="./assets/images/courses-4.jpg" width="350" height="300" loading="lazy"
+                    alt="Expertise on Fitness, Nutrition and Health" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <data class="card-price" value="98">$98</data>
+
+                  <p class="card-author">
+                    <a href="#" class="card-link">
+                      By: <span class="span">Ryan Patterson</span>
+                    </a>
                   </p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">HIPNOZA</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <time datetime="PT2H16M">02 hr 16 mins</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <p class="card-meta-text">14 Lectures</p>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 300;">
+                  <img src="./assets/images/courses-5.jpg" width="350" height="300" loading="lazy"
+                    alt="Hacking exercise for health new science of fitness" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <data class="card-price" value="72">$72</data>
+
+                  <p class="card-author">
+                    <a href="#" class="card-link">
+                      By: <span class="span">Arlene Daniels</span>
+                    </a>
+                  </p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">REGRESIA PRIN HIPNOZA</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <time datetime="PT6H12M">06 hr 12 mins</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <p class="card-meta-text">35 Lectures</p>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 300;">
+                  <img src="./assets/images/courses-6.jpg" width="350" height="300" loading="lazy"
+                    alt="Designing Your Personal Weight Loss Plan" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <data class="card-price" value="68">$68</data>
+
+                  <p class="card-author">
+                    <a href="#" class="card-link">
+                      By: <span class="span">Selina Benton</span>
+                    </a>
+                  </p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">CONSILIERE DEZVOLTARE PERSONALA</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <time datetime="PT9H34M">09 hr 34 mins</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <p class="card-meta-text">28 Lectures</p>
+                    </li>
+
+                  </ul>
+
                 </div>
 
               </div>
@@ -387,57 +537,55 @@
         - #BLOG
       -->
 
-      <!-- <section class="section blog" id="blog">
+      <!-- <section class="section blog" aria-label="blog" id="blog" data-section>
         <div class="container">
 
-          <h2 class="h2 section-title underline">Our Blog & News</h2>
+          <div class="title-wrapper">
+            <p class="section-subtitle">Our Blog Post</p>
 
-          <ul class="blog-list">
+            <h2 class="h2 section-title">Latest Article of Nutrition</h2>
+          </div>
+
+          <ul class="grid-list">
 
             <li>
               <div class="blog-card">
 
-                <figure class="banner">
-                  <a href="#">
-                    <img src="./assets/images/blog-1.jpg" width="750" height="350" loading="lazy"
-                      alt="Vestibulum massa arcu, consectetu pellentesque scelerisque." class="img-cover">
-                  </a>
-                </figure>
+                <div class="wrapper">
 
-                <div class="content">
+                  <time class="publish-date" datetime="2022-02-24">
+                    <span class="span">24</span> Feb
+                  </time>
 
-                  <h3 class="h3 title">
-                    <a href="#">
-                      Vestibulum massa arcu, consectetu pellentesque scelerisque.
-                    </a>
-                  </h3>
+                  <div>
 
-                  <p class="text">
-                    Sed quis sagittis velit. Aliquam velit eros, bibendum ut massa et, consequat laoreet erat nam ac
-                    imperdiet.
-                  </p>
-
-                  <div class="meta">
-
-                    <div class="publish-date">
-                      <ion-icon name="time-outline"></ion-icon>
-
-                      <time datetime="2022-03-07">7 March, 2022</time>
+                    <div class="card-author">
+                      <a href="#" class="card-link">
+                        By: <span class="span">Maddie Rife</span>
+                      </a>
                     </div>
 
-                    <button class="comment" aria-label="Comment">
-                      <ion-icon name="chatbubble-outline"></ion-icon>
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <p class="item-text">87 Likes</p>
+                      </li>
 
-                      <data value="15">15</data>
-                    </button>
-
-                    <button class="share" aria-label="Share">
-                      <ion-icon name="share-social-outline"></ion-icon>
-                    </button>
+                      <li class="card-meta-item">
+                        <p class="item-text">58 Share</p>
+                      </li>
+                    </ul>
 
                   </div>
 
                 </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">It was popularised sheets the release contain</a>
+                </h3>
+
+                <p class="card-text">
+                  Lorem sum same dummy text theme industry psum have been them industry the leaf into type setting.
+                </p>
 
               </div>
             </li>
@@ -445,47 +593,41 @@
             <li>
               <div class="blog-card">
 
-                <figure class="banner">
-                  <a href="#">
-                    <img src="./assets/images/blog-2.jpg" width="750" height="350" loading="lazy"
-                      alt="Quisque egestas iaculis felis eget placerat ut pulvinar mi." class="img-cover">
-                  </a>
-                </figure>
+                <div class="wrapper">
 
-                <div class="content">
+                  <time class="publish-date" datetime="2022-02-24">
+                    <span class="span">24</span> Feb
+                  </time>
 
-                  <h3 class="h3 title">
-                    <a href="#">
-                      Quisque egestas iaculis felis eget placerat ut pulvinar mi.
-                    </a>
-                  </h3>
+                  <div>
 
-                  <p class="text">
-                    Sed quis sagittis velit. Aliquam velit eros, bibendum ut massa et, consequat laoreet erat nam ac
-                    imperdiet.
-                  </p>
-
-                  <div class="meta">
-
-                    <div class="publish-date">
-                      <ion-icon name="time-outline"></ion-icon>
-
-                      <time datetime="2022-03-07">7 March, 2022</time>
+                    <div class="card-author">
+                      <a href="#" class="card-link">
+                        By: <span class="span">Maddie Rife</span>
+                      </a>
                     </div>
 
-                    <button class="comment" aria-label="Comment">
-                      <ion-icon name="chatbubble-outline"></ion-icon>
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <p class="item-text">87 Likes</p>
+                      </li>
 
-                      <data value="15">15</data>
-                    </button>
-
-                    <button class="share" aria-label="Share">
-                      <ion-icon name="share-social-outline"></ion-icon>
-                    </button>
+                      <li class="card-meta-item">
+                        <p class="item-text">58 Share</p>
+                      </li>
+                    </ul>
 
                   </div>
 
                 </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">It was popularised sheets the release contain</a>
+                </h3>
+
+                <p class="card-text">
+                  Lorem sum same dummy text theme industry psum have been them industry the leaf into type setting.
+                </p>
 
               </div>
             </li>
@@ -493,95 +635,41 @@
             <li>
               <div class="blog-card">
 
-                <figure class="banner">
-                  <a href="#">
-                    <img src="./assets/images/blog-3.jpg" width="750" height="350" loading="lazy"
-                      alt="Fusce sem ligula, imperdiet sed nisi sit amet, euismod posuere." class="img-cover">
-                  </a>
-                </figure>
+                <div class="wrapper">
 
-                <div class="content">
+                  <time class="publish-date" datetime="2022-02-24">
+                    <span class="span">24</span> Feb
+                  </time>
 
-                  <h3 class="h3 title">
-                    <a href="#">
-                      Fusce sem ligula, imperdiet sed nisi sit amet, euismod posuere.
-                    </a>
-                  </h3>
+                  <div>
 
-                  <p class="text">
-                    Sed quis sagittis velit. Aliquam velit eros, bibendum ut massa et, consequat laoreet erat nam ac
-                    imperdiet.
-                  </p>
-
-                  <div class="meta">
-
-                    <div class="publish-date">
-                      <ion-icon name="time-outline"></ion-icon>
-
-                      <time datetime="2022-03-07">7 March, 2022</time>
+                    <div class="card-author">
+                      <a href="#" class="card-link">
+                        By: <span class="span">Maddie Rife</span>
+                      </a>
                     </div>
 
-                    <button class="comment" aria-label="Comment">
-                      <ion-icon name="chatbubble-outline"></ion-icon>
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <p class="item-text">87 Likes</p>
+                      </li>
 
-                      <data value="15">15</data>
-                    </button>
-
-                    <button class="share" aria-label="Share">
-                      <ion-icon name="share-social-outline"></ion-icon>
-                    </button>
+                      <li class="card-meta-item">
+                        <p class="item-text">58 Share</p>
+                      </li>
+                    </ul>
 
                   </div>
 
                 </div>
 
-              </div>
-            </li>
+                <h3 class="h3">
+                  <a href="#" class="card-title">It was popularised sheets the release contain</a>
+                </h3>
 
-            <li>
-              <div class="blog-card">
-
-                <figure class="banner">
-                  <a href="#">
-                    <img src="./assets/images/blog-4.jpg" width="750" height="350" loading="lazy"
-                      alt="Donec feugiat mollis nisi in dignissim. Morbi sollicitudin quis." class="img-cover">
-                  </a>
-                </figure>
-
-                <div class="content">
-
-                  <h3 class="h3 title">
-                    <a href="#">
-                      Donec feugiat mollis nisi in dignissim. Morbi sollicitudin quis.
-                    </a>
-                  </h3>
-
-                  <p class="text">
-                    Sed quis sagittis velit. Aliquam velit eros, bibendum ut massa et, consequat laoreet erat nam ac
-                    imperdiet.
-                  </p>
-
-                  <div class="meta">
-
-                    <div class="publish-date">
-                      <ion-icon name="time-outline"></ion-icon>
-
-                      <time datetime="2022-03-07">7 March, 2022</time>
-                    </div>
-
-                    <button class="comment" aria-label="Comment">
-                      <ion-icon name="chatbubble-outline"></ion-icon>
-
-                      <data value="15">15</data>
-                    </button>
-
-                    <button class="share" aria-label="Share">
-                      <ion-icon name="share-social-outline"></ion-icon>
-                    </button>
-
-                  </div>
-
-                </div>
+                <p class="card-text">
+                  Lorem sum same dummy text theme industry psum have been them industry the leaf into type setting.
+                </p>
 
               </div>
             </li>
@@ -589,10 +677,47 @@
           </ul>
 
         </div>
-      </section>
+      </section> -->
+
+
+
+
+
+      <!-- 
+        - #APP
+      -->
+
+      <!-- <section class="section app" aria-label="app" data-section>
+        <div class="container">
+
+          <div class="app-card">
+
+            <p class="section-subtitle">Mobile App Available</p>
+
+            <h2 class="h2 section-title">
+              Download our mobile app.<br>
+              and start coaching anytime.
+            </h2>
+
+            <div class="wrapper">
+              <a href="#" class="app-link" aria-label="play store">
+                <img src="./assets/images/play-store.jpg" width="134" height="38" loading="lazy" alt="Play Store"
+                  class="img">
+              </a>
+
+              <a href="#" class="app-link" aria-label="app store">
+                <img src="./assets/images/app-store.jpg" width="132" height="38" loading="lazy" alt="App Store"
+                  class="img">
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </section> -->
 
     </article>
-  </main> -->
+  </main>
 
 
 
@@ -604,95 +729,54 @@
 
   <footer class="footer">
 
-    <div class="footer-top section">
+    <div class="footer-top section" data-section>
       <div class="container">
 
-        <div class="footer-brand">
+        <div class="footer-list">
 
-          <a href="#" class="logo">Desinic</a>
+          <p class="footer-list-title">Subscribe Newsletter</p>
 
-          <p class="text">
-            Maecenas pellentesque placerat quam, in finibus nisl tincidunt sed. Aliquam magna augue, malesuada ut
-            feugiat eget,
-            cursus eget felis.
+          <p class="footer-list-text">
+            Lorem Ipsum has been them an industry printer took a galley make book.
           </p>
 
-          <ul class="social-list">
+          <form action="" class="footer-form">
+            <input type="email" name="email_address" aria-label="email" placeholder="Enter email" required
+              class="email-field">
 
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-          </ul>
+            <button type="submit" class="btn btn-secondary">Subscribe Now</button>
+          </form>
 
         </div>
 
         <ul class="footer-list">
 
           <li>
-            <p class="footer-list-title">Our links</p>
+            <p class="footer-list-title">All Courses</p>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Home</a>
+            <a href="#" class="footer-link">Daily Exercise</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">About Us</a>
+            <a href="#" class="footer-link">Find Your Balance</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Services</a>
+            <a href="#" class="footer-link">Personal Program</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Team</a>
+            <a href="#" class="footer-link">Natural Process</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Blog</a>
-          </li>
-
-        </ul>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Our Services</p>
+            <a href="#" class="footer-link">Immune System</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Strategy & Research</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Web Development</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Web Solution</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Digital Marketing</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">App Design</a>
+            <a href="#" class="footer-link">Gives You Energy</a>
           </li>
 
         </ul>
@@ -700,15 +784,7 @@
         <ul class="footer-list">
 
           <li>
-            <p class="footer-list-title">Other links</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">FAQ</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Portfolio</a>
+            <p class="footer-list-title">Help Links</p>
           </li>
 
           <li>
@@ -716,11 +792,23 @@
           </li>
 
           <li>
+            <a href="#" class="footer-link">Discussion</a>
+          </li>
+
+          <li>
             <a href="#" class="footer-link">Terms & Conditions</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Support</a>
+            <a href="#" class="footer-link">Customer Support</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Course FAQ’s</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Online Classes</a>
           </li>
 
         </ul>
@@ -728,45 +816,30 @@
         <ul class="footer-list">
 
           <li>
-            <p class="footer-list-title">Contact Us</p>
+            <p class="footer-list-title">Opening Hours</p>
           </li>
 
-          <li class="footer-item">
-
-            <div class="footer-item-icon">
-              <ion-icon name="call"></ion-icon>
-            </div>
-
-            <div>
-              <a href="tel:+2484214313" class="footer-item-link">+248-421-4313</a>
-              <a href="tel:+2486871365" class="footer-item-link">+248-687-1365</a>
-            </div>
-
+          <li>
+            <a href="#" class="footer-link">Mon-Fri: 9 AM – 6 PM</a>
           </li>
 
-          <li class="footer-item">
-
-            <div class="footer-item-icon">
-              <ion-icon name="mail"></ion-icon>
-            </div>
-
-            <div>
-              <a href="mailto:info@desinic.com" class="footer-item-link">info@desinic.com</a>
-              <a href="mailto:help@desinic.com" class="footer-item-link">help@desinic.com</a>
-            </div>
-
+          <li>
+            <a href="#" class="footer-link">Saturday: 9 AM – 4 PM</a>
           </li>
 
-          <li class="footer-item">
+          <li>
+            <a href="#" class="footer-link">Sunday: Closed</a>
+          </li>
 
-            <div class="footer-item-icon">
-              <ion-icon name="location"></ion-icon>
-            </div>
+          <li>
+            <p class="footer-list-title address-title">Location</p>
+          </li>
 
-            <address class="footer-item-link">
-              Pontiac, Michigan, United States of America
+          <li>
+            <address class="address">
+              176 W street name, New<br>
+              York, NY 10014
             </address>
-
           </li>
 
         </ul>
@@ -775,9 +848,35 @@
     </div>
 
     <div class="footer-bottom">
-      <p class="copyright">
-        &copy; 2022 <a href="#" class="copyright-link">codewithsadee</a>. All Right Reserved
-      </p>
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 Futras Made With
+          <ion-icon name="heart" aria-hidden="true"></ion-icon> by
+          <a href="#" class="copyright-link">codewithsadee</a>
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li class="footer-bottom-item">
+            <a href="#" class="footer-bottom-link">Terms of Service</a>
+          </li>
+
+          <li class="footer-bottom-item">
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li class="footer-bottom-item">
+            <a href="#" class="footer-bottom-link">Sitemap</a>
+          </li>
+
+          <li class="footer-bottom-item">
+            <a href="#" class="footer-bottom-link">Security</a>
+          </li>
+
+        </ul>
+
+      </div>
     </div>
 
   </footer>
@@ -787,11 +886,11 @@
 
 
   <!-- 
-    - #GO TO TOP
+    - #BACK TO TOP
   -->
 
-  <a href="#top" class="go-top  active" aria-label="Go To Top" data-go-top>
-    <ion-icon name="arrow-up-outline"></ion-icon>
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
   </a>
 
 
@@ -801,7 +900,7 @@
   <!-- 
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/script.js" defer></script>
 
   <!-- 
     - ionicon link

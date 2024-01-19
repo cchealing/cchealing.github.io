@@ -1,19 +1,19 @@
 <div align="center">
   
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/desinic)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/desinic?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/desinic?style=social)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/futras)
+  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/futras?style=social)
+  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/futras?style=social)
 [![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/SjhiZ_ySGzA?style=social)](https://youtu.be/SjhiZ_ySGzA)
+  [![YouTube Video Views](https://img.shields.io/youtube/views/QrS56MIl-CE?style=social)](https://youtu.be/QrS56MIl-CE)
 
   <br />
   <br />
 
-  <h2 align="center">Desinic - Agency website</h2>
+  <h2 align="center">Futras - Fitness Website</h2>
 
-  Desinic is fully responsive agency website, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
+  Futras is a fully responsive fitness website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
-  <a href="https://codewithsadee.github.io/desinic/"><strong>➥ Live Demo</strong></a>
+  <a href="https://codewithsadee.github.io/futras/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -21,7 +21,7 @@
 
 ### Demo Screeshots
 
-![Desinic Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+![Futras Desktop Demo](./readme-images/desktop.png "Desktop Demo")
 
 ### Prerequisites
 
@@ -31,18 +31,18 @@ Before you begin, ensure you have met the following requirements:
 
 ### Run Locally
 
-To run **Desinic** locally, run this command on your git bash:
+To run **Futras** locally, run this command on your git bash:
 
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/codewithsadee/desinic.git
+sudo git clone https://github.com/codewithsadee/futras.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/codewithsadee/desinic.git
+git clone https://github.com/codewithsadee/futras.git
 ```
 
 ### Contact
