@@ -532,7 +532,7 @@ body {
 .service-card .card-title:is(:hover, :focus) { color: var(--orange-web); }
 
 .service-card .card-text {
-  font-size: var(--fs-5);
+  font-size: var(--fs-4);
   margin-block: 20px 35px;
 }
 
@@ -1019,7 +1019,7 @@ body {
    */
 
   .service-card {
-    max-width: 380px;
+    /* max-width: 380px; */
     margin-inline: auto;
   }
 
